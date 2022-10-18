@@ -1,7 +1,7 @@
 module ValidatesDateTime
   module MultiparameterAttributes
     def self.included(base)
-      base.alias_method :execute_callstack_for_multiparameter_attributes, :temporal_error_handling
+      base.alias_method :execute_callstack_for_multiparameter_attributes, :temporal_validation_options
     end
     
     def execute_callstack_for_multiparameter_attributes_with_temporal_error_handling(callstack)
