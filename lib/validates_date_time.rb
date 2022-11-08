@@ -142,7 +142,3 @@ module ValidatesDateTime
     end
   end
 end
-
-class ActiveRecord::Base
-  include ValidatesDateTime
-end
